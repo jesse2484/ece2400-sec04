@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 void sort(int*x_ptr,int*y_ptr) {
-  if ((*x_ptr)<(*y_ptr)) {
+  if ((*x_ptr)>(*y_ptr)) {
     int temp = *x_ptr;
       *x_ptr = *y_ptr;
         *y_ptr = temp;
